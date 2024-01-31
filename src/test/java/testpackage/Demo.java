@@ -43,7 +43,7 @@ public class Demo {
 		String account = element.getText();
 		System.out.println("Account: " + account);
 
-		// Navigate to admin page f
+		// Navigate to admin page
 		driver.navigate().to(adminpage);
 	}
 
